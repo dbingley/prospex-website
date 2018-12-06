@@ -1,0 +1,75 @@
+body {
+  font-family: 'Khand', sans-serif;
+  background: url(../images/bbyprin.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment:fixed;
+  background-color: #ffa333;
+}
+
+.dropbtn {
+    background-color: #ffc680;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #cc7000;
+}
+
+
+.dropdown {
+  top: right;
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #cc7000;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px #ffc680;
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: black;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ffc680}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+/* Donate Widget CSS */
+
+.donate-widget {
+    position: fixed;
+    top: calc(50% - 1.75rem);
+    right: 0;
+}
+
+.donate-widget a {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1;
+    display: block;
+    padding: 1rem;
+    background: rgba(0,0,0,.7);
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.donate-widget a:hover {
+    text-decoration: none;
+    background: rgba(50,50,50,0.7);
+
+}
