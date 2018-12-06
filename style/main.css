@@ -2,11 +2,15 @@ body {
   font-family: 'Khand', sans-serif;
   background: url(../images/bbyprin.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
   background-attachment:fixed;
-  background-color: #ffa333;
+  background-color: #ffc680;
 }
-
+@media screen and (min-width: 48em){
+  body{
+    background-size: cover;
+  }
+}
 .dropbtn {
     background-color: #ffc680;
     color: white;
