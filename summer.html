@@ -1,41 +1,50 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <title>Prospex</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     <link rel="stylesheet" href="./style/main.css">
-
 </head>
 <body>
 
-
-
     <header class="container-fluid">
-      <div class="dropdown">
-    <button onclick="myFunction()" class="dropbtn">Menu</button>
-    <div id="myDropdown" class="dropdown-content">
-      <a href="index.html"><h3>The Challenge</h3></a>
-      <a href="index.html"><h4>Programmes</h4></a>
-        <nav>
-          <ul>
-              <li><a href="street-teams.html" title="Street Teams">Street Teams</a></li>
-              <li><a href="skills-wkshp.html" title="Skills Workshops">Skills Workshops</a></li>
-              <li><a href="summer.html" title="Summer Programmes">Summer Programmes</a></li>
-              <li><a href="youth.html" title="Youth Programmes">Youth Programmes</a></li>
-              <li><a href="121.html" title="121 Programmes">121 Programmes</a></li>
-              </ul>
-      </nav>
-
-        <h4>Find Out More</h4>
-        <nav>
-            <ul>
-              <li><a href="diff.html" title"Why We're Different"=>Why We're Different</a></li>
-                <li><a href="donate.html" title="Donate">Donate</a></li>
-                <li><a href="blog.html" title="Read our blog">Blog</a></li>
-            </ul>
-        </nav>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="index.html"><h3>The Challenge</h3></a>
+                <h4>Programmes</h4>
+                <nav>
+                    <ul>
+                        <li><a href="street-teams.html" title="Street Teams">Street Teams</a></li>
+                        <li><a href="skills-wkshp.html" title="Skills Workshops">Skills Workshops</a></li>
+                        <li><a href="summer.html" title="Summer Programmes">Summer Programmes</a></li>
+                        <li><a href="youth.html" title="Youth Programmes">Youth Programmes</a></li>
+                        <li><a href="121.html" title="121 Programmes">121 Programmes</a></li>
+                    </ul>
+                </nav>
+                <h4>Find Out More</h4>
+                <nav>
+                    <ul>
+                        <li><a href="#wediff" title"Why We're Different"=>Why We're Different</a></li>
+                        <li><a href="donate.html" title="Donate">Donate</a></li>
+                        <li><a href="blog.html" title="Read our blog">Blog</a></li>
+                    </ul>
+                </nav>
     </header>
+     <section class="center mw6 tc">
+         <h2>Content Currently Unavaliable</h2> 
+     </section>
+    <footer>
+
+    </footer>
+    <div class="donate-widget">
+        <a href="#fundraising" title="Donate to Prospex now">🧡 Donate Now</a>
+    </div>
+
+</body>
+<script src="donate-widget.js"></script>
+<script src="dropdown-content.js"></script>
+</html>
