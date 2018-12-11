@@ -1,0 +1,86 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment:fixed;
+  background-color:#626567;
+  
+}
+@media screen and (min-width: 48em){
+  body{
+    background-size: cover;
+  }
+}
+
+.pv4{ 
+    background-color:#E67E22;
+    color: black;
+}
+    
+
+.dropbtn {
+    background-color:#E67E22;
+    color:black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color:#E67E22;
+}
+
+
+.dropdown {
+  top: right;
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#E67E22;
+    min-width: 250px;
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: black;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #D35400}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+/* Donate Widget CSS */
+
+
+.donate-widget {
+    position: fixed;
+    top: calc(50% - 1.75rem);
+    right: 0;
+}
+
+.donate-widget a {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1;
+    display: block;
+    padding: 1rem;
+    background: rgba(0,0,0,.7);
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.donate-widget a:hover {
+    text-decoration: none;
+    background: rgba(50,50,50,0.7);
+
+}
