@@ -3,8 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   background-attachment:fixed;
-  background-color:#626567;
-  
+  background-color:white;
+
 }
 @media screen and (min-width: 48em){
   body{
@@ -12,12 +12,16 @@ body {
   }
 }
 
-.pv4{ 
+.pic{
+  border-radius: 20px;
+}
+.pv4{
     background-color:#E67E22;
     color: black;
     align-items:center;
+    border-radius: 20px;
 }
-    
+
 
 .dropbtn {
     background-color:#E67E22;
