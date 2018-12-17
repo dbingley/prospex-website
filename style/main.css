@@ -16,12 +16,24 @@ body {
   border-radius: 20px;
 }
 .pv4{
-    background-color:#E67E22;
+   background-color:white;
     color: black;
     align-items:center;
-    border-radius: 20px;
+    
+   
+   
+  
 }
 
+
+.b--{
+    border-bottom-color:#E67E22 ; 
+
+}
+.ba{
+    border-color:#E67E22;
+    border-radius:.5rem;
+}
 
 .dropbtn {
     background-color:#E67E22;
