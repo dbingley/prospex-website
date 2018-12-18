@@ -14,20 +14,22 @@ body {
 
 .pic{
   border-radius: 20px;
+
 }
 .pv4{
    background-color:white;
     color: black;
     align-items:center;
-    
-   
-   
-  
+    max-width: 46rem;
+
+
+
+
 }
 
 
 .b--{
-    border-bottom-color:#E67E22 ; 
+    border-bottom-color:#E67E22 ;
 
 }
 .ba{
